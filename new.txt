@@ -1,0 +1,74 @@
+___   ____              ________ ________                                     
+\   \ /   /__  _______  /  _____/ \______ \  __ __  _____ ______   ___________ 
+ \   Y   /\  \/  /  _ \/   __  \   |    |  \|  |  \/     \\____ \_/ __ \_  __ \
+  \     /  >    <  <_> )  |__\  \  |    `   \  |  /  Y Y  \  |_> >  ___/|  | \/
+   \___/  /__/\_ \____/ \_____  / /_______  /____/|__|_|  /   __/ \___  >__|   
+                \/            \/          \/            \/|__|        \/       
+// 📜 Dumped by AJ & Vxo6 (GlyphAJ & Vxo6) | ℹ️ Version: 31fc142272764f02
+
+// Internal Offsets;
+inline const uintptr_t FireMouseHoverEnter = REBASE(0x1BFEF50);
+inline const uintptr_t FireMouseHoverLeave = REBASE(0x1BFF0F0);
+inline const uintptr_t FireTouchInterest = REBASE(0x1E43C80);
+inline const uintptr_t FireClickDetector = REBASE(0x1BFD9B0);
+inline const uintptr_t GetContextObject = REBASE(0xDE0950);
+inline const uintptr_t GetFFlag = REBASE(0x483E7C0);
+inline const uintptr_t GetGlobalState = REBASE(0xDC7AA0);
+inline const uintptr_t GetLuaState = REBASE(0xB4F910);
+inline const uintptr_t GetModuleFromVMStateMap = REBASE(0xEFAE30);
+inline const uintptr_t GetProperty = REBASE(0xAA72B0);
+inline const uintptr_t GetValues = REBASE(0xBD63F0);
+inline const uintptr_t IdentityStruct = REBASE(0x3ACE6D0);
+inline const uintptr_t Impersonator = REBASE(0x38F31B0);
+inline const uintptr_t KTable = REBASE(0x68667B0);
+inline const uintptr_t LuaC_step = REBASE(0x2775F90);
+inline const uintptr_t LuaD_throw = REBASE(0x27766C0);
+inline const uintptr_t LuaL_register = REBASE(0x276B720);
+inline const uintptr_t LuaO_NilObject = REBASE(0x4E52D48);
+inline const uintptr_t luaA_toobject = REBASE(0x2766730);
+inline const uintptr_t luaL_checklstring = REBASE(0x2769FA0);
+inline const uintptr_t luaL_getmetafield = REBASE(0x276A440);
+inline const uintptr_t luaL_argerrorL = REBASE(0x27681D0);
+inline const uintptr_t luaL_typeerrorL = REBASE(0x2768250);
+inline const uintptr_t luaL_findtable = REBASE(0x276C600);
+inline const uintptr_t luaL_where = REBASE(0x2768370);
+inline const uintptr_t currfuncname = REBASE(0x2768150);
+inline const uintptr_t luaG_runerrorL = REBASE(0x2779840);
+inline const uintptr_t luaM_visitgco = REBASE(0x27BA960);
+inline const uintptr_t luaH_Dummynode = REBASE(0x4E52768);
+inline const uintptr_t Luau_execute = REBASE(0x27A6DA0);
+inline const uintptr_t Pseudo2addr = REBASE(0x2766670);
+inline const uintptr_t Print = REBASE(0x14CA3E0);
+inline const uintptr_t PushInstance = REBASE(0xE9CBA0);
+inline const uintptr_t RaiseEventInvocation = REBASE(0x1489000);
+inline const uintptr_t RawTaskScheduler = REBASE(0x7171238);
+inline const uintptr_t RequestCode = REBASE(0x945AB0);
+inline const uintptr_t SetFFlag = REBASE(0x3AEFF70);
+inline const uintptr_t SetProtoCapabilities = REBASE(0xC6BE70);
+inline const uintptr_t Task_Defer = REBASE(0xFFBF40);
+inline const uintptr_t VariantCastInt = REBASE(0x14978F0);
+inline const uintptr_t VariantCastInt64 = REBASE(0x1497B00);
+inline const uintptr_t ValidateBytecode = REBASE(0xE25820);
+inline const uintptr_t PhysicsSenderMaxBandwidthBps = REBASE(0x5F3DECC);
+inline const uintptr_t FireProximityPrompt = REBASE(0x1CE90B0);
+inline const uintptr_t VisualEnginePointer = REBASE(0x6E061B0);
+inline const uintptr_t IdentityPtr = REBASE(0x689B3C8);
+inline const uintptr_t FireRightMouseClick = REBASE(0x1BFDB50);
+inline const uintptr_t AppDataInfo = REBASE(0x70A8438);
+inline const uintptr_t EnableLoadedModules = REBASE(0x5F62A18);
+inline const uintptr_t luaT_eventnames = REBASE(0x4E52CA0);
+inline const uintptr_t FakeDataModelPointer = REBASE(0x70A86B8);
+inline const uintptr_t TaskschedulerTargetFPS = REBASE(0x6866724);
+inline const uintptr_t LuaO_pushvfstring = REBASE(0x27CF270);
+inline const uintptr_t VariantCastFloat = REBASE(0x1497F40);
+inline const uintptr_t LuaVMLoad = REBASE(0xB53C90);
+inline const uintptr_t OpcodeLookupTable = REBASE(0x548C4C0);
+
+// External Offsets
+constexpr uintptr_t PropertyDescriptor = 0x3C0;
+constexpr uintptr_t Overlap = 0x288;
+constexpr uintptr_t GlobalState = 0x140;
+constexpr uintptr_t EncryptedState = 0x88;
+constexpr uintptr_t IsCoreScript = 0x190;
+constexpr uintptr_t RequireBypass = 0x828;
+constexpr uintptr_t GetSetImplementation = 0xA0;
